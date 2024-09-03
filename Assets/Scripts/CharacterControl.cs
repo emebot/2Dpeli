@@ -8,6 +8,11 @@ public class CharacterControl : MonoBehaviour
     public Animator animator; // kutsutaan jos halutaan muokata animaatioiden ajoa
     public Rigidbody2D rb2D; // 
 
+    public Transform groundCheckPosition;
+    public float groundCheckRadius;
+    public LayerMask groundCheckLayer;
+    public bool grounded;
+
     
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -19,6 +24,17 @@ public class CharacterControl : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        
+        //Ground Check
+        if(Physics2D.OverlapCircle(groundCheckPosition.position, groundCheckRadius, groundCheckLayer))
+            {
+            grounded = true;
+            }
+            else
+            {
+            grounded = false;
+            }
+        
         transform.Translate(Input.GetAxis("Horizontal") * moveSpeed * Time.deltaTime, 0, 0);
 
         if(Input.GetAxisRaw("Horizontal") != 0)

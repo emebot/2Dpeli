@@ -221,7 +221,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Icy-platforms_0
+      name: Big
       rect:
         serializedVersion: 2
         x: 30
@@ -229,7 +229,7 @@ TextureImporter:
         width: 1143
         height: 836
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -243,7 +243,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Icy-platforms_1
+      name: Medium
       rect:
         serializedVersion: 2
         x: 1260
@@ -251,7 +251,7 @@ TextureImporter:
         width: 684
         height: 512
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -273,7 +273,7 @@ TextureImporter:
         width: 32
         height: 7
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -287,37 +287,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Icy-platforms_3
+      name: Small
       rect:
         serializedVersion: 2
-        x: 1675
-        y: 1115
-        width: 12
-        height: 25
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: e94136ac57d1e2f00800000000000000
-      internalID: 1093844151241479326
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Icy-platforms_4
-      rect:
-        serializedVersion: 2
-        x: 47
+        x: 49
         y: 735
         width: 796
         height: 351
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -331,7 +309,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Icy-platforms_5
+      name: Cube
       rect:
         serializedVersion: 2
         x: 963
@@ -339,7 +317,7 @@ TextureImporter:
         width: 490
         height: 549
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -353,7 +331,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Icy-platforms_6
+      name: Campfire
       rect:
         serializedVersion: 2
         x: 1549
@@ -361,7 +339,7 @@ TextureImporter:
         width: 256
         height: 310
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -374,99 +352,11 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
-    - serializedVersion: 2
-      name: Icy-platforms_7
-      rect:
-        serializedVersion: 2
-        x: 1551
-        y: 991
-        width: 9
-        height: 17
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: db606935f82c54620800000000000000
-      internalID: 2757824267672749757
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Icy-platforms_8
-      rect:
-        serializedVersion: 2
-        x: 1776
-        y: 975
-        width: 27
-        height: 70
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 60a2521e5955217d0800000000000000
-      internalID: -2949200703758456314
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Icy-platforms_9
-      rect:
-        serializedVersion: 2
-        x: 1832
-        y: 987
-        width: 36
-        height: 78
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: d9a5a2868f26b5610800000000000000
-      internalID: 1610990110754101917
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Icy-platforms_10
-      rect:
-        serializedVersion: 2
-        x: 1789
-        y: 916
-        width: 22
-        height: 59
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 54d91084207b1af50800000000000000
-      internalID: 6890990125279452485
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: da0337e1f70246a4ea86d3c00235f0ea
     internalID: 0
     vertices: []
     indices: 
@@ -474,17 +364,17 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Icy-platforms_0: 2534119464301506577
-      Icy-platforms_1: 7061278219342040925
+      Big: 2534119464301506577
+      Campfire: 4517821167023141018
+      Cube: 8565707288036764043
       Icy-platforms_10: 6890990125279452485
       Icy-platforms_2: -596329983286724703
       Icy-platforms_3: 1093844151241479326
-      Icy-platforms_4: 6326408023401119547
-      Icy-platforms_5: 8565707288036764043
-      Icy-platforms_6: 4517821167023141018
       Icy-platforms_7: 2757824267672749757
       Icy-platforms_8: -2949200703758456314
       Icy-platforms_9: 1610990110754101917
+      Medium: 7061278219342040925
+      Small: 6326408023401119547
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
